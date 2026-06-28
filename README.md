@@ -8,7 +8,7 @@ The application allows users to browse trending movies, search thousands of movi
 
 ## 🚀 Live Demo
 
-👉 Coming Soon
+👉 https://movieflix-react-app-zeta.vercel.app/
 
 ---
 
@@ -51,13 +51,27 @@ The application allows users to browse trending movies, search thousands of movi
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-movieflix-react/
+movieflix-react-app/
 │
 ├── public/
+│   ├── favicon.svg
+│   ├── hero-bg.png
+│   ├── hero.png
+│   ├── icons.svg
+│   ├── logo.png
+│   ├── no-movie.png
+│   ├── search.svg
+│   └── star.svg
+│
 ├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   │
 │   ├── components/
 │   │   ├── MovieCard.jsx
 │   │   ├── Search.jsx
@@ -69,11 +83,14 @@ movieflix-react/
 │   └── main.jsx
 │
 ├── .env.local
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
 ```
-
 ---
 
 ## ⚙️ Environment Variables
